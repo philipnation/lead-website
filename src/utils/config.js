@@ -1,0 +1,2 @@
+export const MONGO_URL = 'mongodb+srv://samueladex:movingforward001@cluster0.gpspy.mongodb.net/leads?retryWrites=true&w=majority';
+export const JWT_TOKEN_SECRET = 'fshdskfhldskfhds87ry87t4w32ryp92rhiewlfkahfsf7t874r87tewrgiyhbfasfdsbvjdfsvs';

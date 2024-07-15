@@ -1,0 +1,40 @@
+###
+POST http://localhost:3000/api/auth/login
+
+Content-Type: application/json
+
+{
+    "email": "test@gmail.com",
+    "password": "12345"
+}
+
+
+###
+POST http://localhost:3000/api/auth/register
+
+Content-Type: "application/json"
+
+{
+    "username": "samueladex",
+    "email": "adexsamuel6@gmail.com",
+    "password": "123456"
+}
+
+
+###
+GET https://leads-pal-samueladexs-projects.vercel.app/api/auth/me?userId=65d8c795e3bd1466f61f9936
+
+
+###
+POST http://localhost:3000/api/contact
+
+Content-Type: "application/json"
+{
+    "contactId": "28346472763872", 
+    "firstName": "normal", 
+    "lastName": "contact", 
+    "phoneNumber": "090465857489", 
+    "lookUp": "normal level na", 
+    "imageAvailable": "true",
+    "userId": "65d8c795e3bd1466f61f9936"
+}
